@@ -1,0 +1,22 @@
+body{
+    font-size: 16px;
+}
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+ul {
+    background-color: palegreen;
+}
+.change-style {
+    background-color: peru;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: italic;
+    line-height: normal;
+    text-align: center;
+    text-decoration: rosybrown;
+}
