@@ -7,12 +7,14 @@
     margin: 35px;
     font-size: 30px;
     text-decoration: underline;
+    
 }
 .video{
+        text-align: center;
         float: right;
-        clear: both;
         width: 50%;
-}
+       }
+       
 .info{
     display: inline-block;
     margin: 10px;
@@ -53,5 +55,8 @@ table, td, th {
     margin: 10px;
     width: 50%; 
 }
-
+.art{
+    width: 50%;
+    float: left;
+}
 
