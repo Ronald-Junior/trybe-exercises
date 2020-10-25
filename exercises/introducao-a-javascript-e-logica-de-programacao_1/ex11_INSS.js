@@ -1,4 +1,4 @@
-let sal = 3000;
+let sal = 4000;
 
 let inss = 0;
 let ir = 0;
