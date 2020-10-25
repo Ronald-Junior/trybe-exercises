@@ -1,4 +1,4 @@
-let custoProd = 25;
+let custoProd = 35;
 let valVenda = 40;
 let custoCompras = custoProd*1000;
 let imposto = custoCompras*20/100;
