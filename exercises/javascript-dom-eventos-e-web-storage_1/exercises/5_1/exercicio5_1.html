@@ -62,6 +62,9 @@
         document.getElementsByClassName('title')[0].innerText = 'Exercícios 5.1 - JavaScript';
         //exercicio5
         document.getElementsByTagName('p')[0].innerText = document.getElementsByTagName('p')[0].innerText.toUpperCase();
+        //exercicio6
+        for (let indice = 0; indice < document.getElementsByTagName('p').length; indice += 1) {
+          console.log(document.getElementsByTagName('p')[indice].innerText);
     </script>
   </body>
 </html>
