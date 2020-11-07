@@ -140,3 +140,12 @@ let holidayClick = () => {
     }
     };
     zoomOutDay();
+//Exercicio 7
+const myTasks = document.querySelector('.my-tasks');
+const spanCreate = document.createElement('span');
+
+let newTask = (string) => {
+  spanCreate.innerText = string;
+  myTasks.appendChild(spanCreate);
+};
+newTask('Descansar quando possível');
