@@ -157,3 +157,15 @@ let taskColor = (string) => {
   myTasks.appendChild(createTasksColor);
 };
 taskColor('yellow');
+//Exercicio 9
+let taskSelect = () => {
+    const taskDiv = document.getElementsByClassName('task')[0];
+    taskDiv.addEventListener('click', () => {
+      if (taskDiv.className !== 'task selected') {
+        taskDiv.classList.add('task selected');
+      } else {
+        taskDiv.className = 'task';
+      }
+    });
+  };
+  taskSelect();
