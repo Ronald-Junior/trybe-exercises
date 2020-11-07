@@ -79,3 +79,19 @@ let holidayButton = (string) => {
   buttonContainer.appendChild(btnHoliday);
 };
 holidayButton('Feriados');
+// Exercício parte 3
+let holidayClick = () => {
+    const holidayBtn = document.querySelector('#btn-holiday');
+    const holidayLi = document.querySelectorAll('.holiday');
+  
+    for (let li of holidayLi) {
+      holidayBtn.addEventListener('click', () => {
+        if (li.style.backgroundColor != 'white') {
+          li.style.backgroundColor = 'white';
+        } else {
+          li.style.backgroundColor = 'rgb(238, 238, 238)';
+        }
+      });
+    }
+  };
+  holidayClick();
