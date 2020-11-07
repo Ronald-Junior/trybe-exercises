@@ -70,4 +70,12 @@ const dezDaysList = [
     }
   };
   monthDays();
-  
+//Exercicio parte 2
+const buttonContainer = document.querySelector('.buttons-container');
+let holidayButton = (string) => {
+    let btnHoliday = document.createElement('button');
+  btnHoliday.id = 'btn-holiday';
+  btnHoliday.innerText = string;
+  buttonContainer.appendChild(btnHoliday);
+};
+holidayButton('Feriados');
