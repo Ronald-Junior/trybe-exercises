@@ -120,3 +120,23 @@ let holidayClick = () => {
     }
   };
   btnFridayText([4, 11, 18, 25]);
+  //Exercício 6
+  const liDay = document.getElementsByClassName('day');
+    let zoomIn = (e) => {
+    e.target.style.fontSize = '40px';
+    };
+    let zoomOut = (e) => {
+    e.target.style.fontSize = '20px';
+    };
+    let zoomInDay = () => {
+    for (let i of liDay) {
+        i.addEventListener('mouseover', zoomIn);
+    }
+    };
+    zoomInDay();
+    let zoomOutDay = () => {
+    for (let i of liDay) {
+        i.addEventListener('mouseout', zoomOut);
+    }
+    };
+    zoomOutDay();
