@@ -149,3 +149,11 @@ let newTask = (string) => {
   myTasks.appendChild(spanCreate);
 };
 newTask('Descansar quando possível');
+//Exercício 8
+const createTasksColor = document.createElement('div');
+let taskColor = (string) => {
+  createTasksColor.className = 'task';
+  createTasksColor.style.backgroundColor = string;
+  myTasks.appendChild(createTasksColor);
+};
+taskColor('yellow');
