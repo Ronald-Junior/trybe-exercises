@@ -95,3 +95,12 @@ let holidayClick = () => {
     }
   };
   holidayClick();
+  //Exercício 4
+  let btnFriday = (string) => {
+    const btnContainer = document.querySelector('.buttons-container');
+    const btnCreate = document.createElement('button');
+    btnCreate.id = 'btn-friday';
+    btnCreate.innerText = string;
+    btnContainer.appendChild(btnCreate);
+  };
+  btnFriday('Sexta-Feira');
