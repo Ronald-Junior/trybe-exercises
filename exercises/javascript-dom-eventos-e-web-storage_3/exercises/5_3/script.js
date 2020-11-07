@@ -162,10 +162,24 @@ let taskSelect = () => {
     const taskDiv = document.getElementsByClassName('task')[0];
     taskDiv.addEventListener('click', () => {
       if (taskDiv.className !== 'task selected') {
-        taskDiv.classList.add('task selected');
+        taskDiv.classList.add('selected');
       } else {
         taskDiv.className = 'task';
       }
     });
   };
   taskSelect();
+  //Exercicio 10
+  let toggleDayColor = () => {
+    days.addEventListener('click', (e) => {
+      const selectedTask = document.querySelector('.selected');
+      if (selectedTask !== null) {
+        if (e.target.style.color === selectedTask.style.backgroundColor) {
+          e.target.style.color = 'rgb(119, 119, 119)';
+        } else {
+          e.target.style.color = selectedTask.style.backgroundColor;
+        }
+      }
+    });
+  };
+  toggleDayColor();
