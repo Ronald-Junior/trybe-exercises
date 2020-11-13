@@ -21,12 +21,25 @@
         <input type="text" id="cidade" name="cidade" placeholder="Cidade" maxlength="28" required />
         <label for="estados">UF</label>
         <select id="estados" name="estados" required></select>
+        </br>
         <label for="casa">Casa</label>
         <input class="radio" type="radio" id="casa" name="moradia" value="Casa" required />
         <label for="apartamento">Apartamento</label>
         <input class="radio" type="radio" id="apartamento" name="moradia" value="Apartamento" required />
         </fieldset>
-        <fieldset></fieldset>
+        <fieldset>
+          <label for="resumoDoCV">Resumo do currículo</label>
+          <textarea name="resumoDoCV" id="resumoDoCV" maxlength="1000" required></textarea>
+  
+          <label for="cargo">Cargo</label>
+          <input type="text" id="cargo" name="cargo" placeholder="Cargo" maxlength="40" required />
+  
+          <label for="descricaoDoCargo">Descrição do cargo</label>
+          <input type="text" id="descricaoDoCargo" name="descricaoDoCargo" placeholder="Descrição do cargo" maxlength="500" required />
+  
+          <label for="dataInicio">Data de Inicio</label>
+          <input type="date" id="dataInicio" name="dataInicio" required />
+        </fieldset>
     </form>
     <script src="script.js"></script>
 </body>
