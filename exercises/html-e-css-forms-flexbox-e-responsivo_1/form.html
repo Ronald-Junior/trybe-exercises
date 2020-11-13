@@ -30,17 +30,17 @@
         <fieldset>
           <label for="resumoDoCV">Resumo do currículo</label>
           <textarea name="resumoDoCV" id="resumoDoCV" maxlength="1000" required></textarea>
-  
           <label for="cargo">Cargo</label>
           <input type="text" id="cargo" name="cargo" placeholder="Cargo" maxlength="40" required />
-  
           <label for="descricaoDoCargo">Descrição do cargo</label>
           <input type="text" id="descricaoDoCargo" name="descricaoDoCargo" placeholder="Descrição do cargo" maxlength="500" required />
-  
           <label for="dataInicio">Data de Inicio</label>
           <input type="date" id="dataInicio" name="dataInicio" required />
         </fieldset>
+              <button id="criarCV" type="submit">Criar seu CV</button>
     </form>
+          <button id="apagarDados">Limpar</button>
+          <div id="resume"></div>
     <script src="script.js"></script>
 </body>
 </html>
