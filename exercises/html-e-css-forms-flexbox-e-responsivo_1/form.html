@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="GET">
+        <fieldset>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" name="nome" placeholder="Nome Completo" maxlength="40" required />
+        <label for="email">e-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail" maxlength="50" required />
+        <label for="cpf">CPF</label>
+        <input type="cpf" id="cpf" name="cpf" placeholder="CPF" maxlength="11" required />
+        <label for="endereco">Endereço</label>
+        <input type="endereco" id="endereco" name="endereco" placeholder="Endereço" maxlength="200" required/>
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Cidade" maxlength="28" required />
+        <label for="estados">UF</label>
+        <select id="estados" name="estados" required></select>
+        </br>
+        <label for="casa">Casa</label>
+        <input class="radio" type="radio" id="casa" name="moradia" value="Casa" required />
+        <label for="apartamento">Apartamento</label>
+        <input class="radio" type="radio" id="apartamento" name="moradia" value="Apartamento" required />
+        </fieldset>
+        <fieldset>
+          <label for="resumoDoCV">Resumo do currículo</label>
+          <textarea name="resumoDoCV" id="resumoDoCV" maxlength="1000" required></textarea>
+          <label for="cargo">Cargo</label>
+          <input type="text" id="cargo" name="cargo" placeholder="Cargo" maxlength="40" required />
+          <label for="descricaoDoCargo">Descrição do cargo</label>
+          <input type="text" id="descricaoDoCargo" name="descricaoDoCargo" placeholder="Descrição do cargo" maxlength="500" required />
+          <label for="dataInicio">Data de Inicio</label>
+          <input type="date" id="dataInicio" name="dataInicio" required />
+        </fieldset>
+              <button id="criarCV" type="submit">Criar seu CV</button>
+    </form>
+          <button id="apagarDados">Limpar</button>
+          <div id="resume"></div>
+    <script src="script.js"></script>
+</body>
+</html>
