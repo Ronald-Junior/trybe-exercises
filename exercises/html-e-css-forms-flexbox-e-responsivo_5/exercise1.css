@@ -17,6 +17,21 @@ figure {
     margin: 10px;
 }
 
+
+@media (max-width: 1150px){
+    body{
+        background-color: #ffffE0;
+        margin: 10px;
+        font-size: 12px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+}
 @media (min-width: 530px){
     body{
         background-color: #add8e6;
