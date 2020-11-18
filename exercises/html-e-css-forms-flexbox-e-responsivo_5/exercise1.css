@@ -16,3 +16,20 @@ img {
 figure {
     margin: 10px;
 }
+
+@media (min-width: 530px){
+    body{
+        background-color: #add8e6;
+        margin: 10px
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    div{
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
