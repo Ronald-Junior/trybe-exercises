@@ -1,0 +1,50 @@
+body {
+    font-size: 20px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+
+img {
+    max-width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+figure {
+    margin: 10px;
+}
+
+
+@media (max-width: 1150px){
+    body{
+        background-color: #ffffE0;
+        margin: 10px;
+        font-size: 12px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+}
+@media (min-width: 530px){
+    body{
+        background-color: #add8e6;
+        margin: 10px
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    div{
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
